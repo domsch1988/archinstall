@@ -1,0 +1,5 @@
+2021/02/19-10:43:30.593 d45 Reusing MANIFEST /home/dominik/.config/vivaldi/Default/IndexedDB/https_419ed26f0b58d9b596f19e2668fd8163.safeframe.googlesyndication.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/19-10:43:38.640 d21 Level-0 table #5: started
+2021/02/19-10:43:38.641 d21 Level-0 table #5: 439 bytes OK
+2021/02/19-10:43:38.643 d21 Delete type=0 #3
+2021/02/19-10:43:38.643 d21 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
