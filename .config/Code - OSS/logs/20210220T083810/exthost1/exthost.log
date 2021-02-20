@@ -1,0 +1,166 @@
+[2021-02-20 08:38:11.549] [exthost] [info] extension host started
+[2021-02-20 08:38:11.561] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-02-20 08:38:11.561] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/debug-auto-launch/dist/extension
+[2021-02-20 08:38:11.563] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-02-20 08:38:11.563] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/git/dist/main
+[2021-02-20 08:38:11.572] [exthost] [info] ExtensionService#_doActivateExtension rust-lang.rust {"startup":true,"extensionId":{"value":"rust-lang.rust","_lower":"rust-lang.rust"},"activationEvent":"workspaceContains:Cargo.toml"}
+[2021-02-20 08:38:11.572] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dominik/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/extension.js
+[2021-02-20 08:38:11.661] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-02-20 08:38:11.661] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/github/dist/extension.js
+[2021-02-20 08:38:11.678] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-02-20 08:38:11.678] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/ms-vscode.js-debug/src/extension.js
+[2021-02-20 08:38:11.726] [exthost] [info] eager extensions activated
+[2021-02-20 08:38:11.734] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-02-20 08:38:11.734] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/emmet/dist/node/emmetNodeMain
+[2021-02-20 08:38:11.739] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-02-20 08:38:11.739] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/merge-conflict/dist/mergeConflictMain
+[2021-02-20 08:38:11.740] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-02-20 08:38:11.740] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/testing-editor-contributions/dist/extension.js
+[2021-02-20 08:53:33.016] [exthost] [error] [rust-lang.rust] provider FAILED
+[2021-02-20 08:53:33.018] [exthost] [error] Error: Language client is not ready yet
+	at LanguageClient.sendRequest (/home/dominik/.vscode-oss/extensions/rust-lang.rust-0.7.8/node_modules/vscode-languageclient/lib/client.js:1789:19)
+	at /home/dominik/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:35:16
+	at new Promise (<anonymous>)
+	at SignatureHelpProvider.provideHover (/home/dominik/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:34:16)
+	at SignatureHelpProvider.provideSignatureHelp (/home/dominik/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:25)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:153977
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:8183
+	at new Promise (<anonymous>)
+	at Object.S [as asPromise] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:8155)
+	at J.provideSignatureHelp (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:153948)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:169857
+	at we._withAdapter (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+	at we.$provideSignatureHelp (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:169833)
+	at p._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+	at p._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+	at p._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+	at p._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+	at Socket.m (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-02-20 08:53:34.885] [exthost] [error] [rust-lang.rust] provider FAILED
+[2021-02-20 08:53:34.886] [exthost] [error] Error: Language client is not ready yet
+	at LanguageClient.sendRequest (/home/dominik/.vscode-oss/extensions/rust-lang.rust-0.7.8/node_modules/vscode-languageclient/lib/client.js:1789:19)
+	at /home/dominik/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:35:16
+	at new Promise (<anonymous>)
+	at SignatureHelpProvider.provideHover (/home/dominik/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:34:16)
+	at SignatureHelpProvider.provideSignatureHelp (/home/dominik/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:25)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:153977
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:8183
+	at new Promise (<anonymous>)
+	at Object.S [as asPromise] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:8155)
+	at J.provideSignatureHelp (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:153948)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:169857
+	at we._withAdapter (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+	at we.$provideSignatureHelp (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:169833)
+	at p._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+	at p._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+	at p._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+	at p._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+	at Socket.m (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-02-20 08:54:52.620] [exthost] [info] ExtensionService#_doActivateExtension vscode.simple-browser {"startup":false,"extensionId":{"value":"vscode.simple-browser","_lower":"vscode.simple-browser"},"activationEvent":"onUriOpen:https"}
+[2021-02-20 08:54:52.620] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/simple-browser/dist/extension
+[2021-02-20 08:57:59.991] [exthost] [error] [rust-lang.rust] provider FAILED
+[2021-02-20 08:57:59.991] [exthost] [error] Error: Language client is not ready yet
+	at LanguageClient.sendRequest (/home/dominik/.vscode-oss/extensions/rust-lang.rust-0.7.8/node_modules/vscode-languageclient/lib/client.js:1789:19)
+	at /home/dominik/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:35:16
+	at new Promise (<anonymous>)
+	at SignatureHelpProvider.provideHover (/home/dominik/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:34:16)
+	at SignatureHelpProvider.provideSignatureHelp (/home/dominik/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:25)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:153977
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:8183
+	at new Promise (<anonymous>)
+	at Object.S [as asPromise] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:8155)
+	at J.provideSignatureHelp (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:153948)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:169857
+	at we._withAdapter (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+	at we.$provideSignatureHelp (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:169833)
+	at p._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+	at p._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+	at p._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+	at p._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+	at Socket.m (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-02-20 08:59:00.918] [exthost] [error] [rust-lang.rust] provider FAILED
+[2021-02-20 08:59:00.918] [exthost] [error] Error: Language client is not ready yet
+	at LanguageClient.sendRequest (/home/dominik/.vscode-oss/extensions/rust-lang.rust-0.7.8/node_modules/vscode-languageclient/lib/client.js:1789:19)
+	at /home/dominik/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:35:16
+	at new Promise (<anonymous>)
+	at SignatureHelpProvider.provideHover (/home/dominik/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:34:16)
+	at SignatureHelpProvider.provideSignatureHelp (/home/dominik/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:25)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:153977
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:8183
+	at new Promise (<anonymous>)
+	at Object.S [as asPromise] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:8155)
+	at J.provideSignatureHelp (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:153948)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:169857
+	at we._withAdapter (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+	at we.$provideSignatureHelp (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:169833)
+	at p._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+	at p._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+	at p._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+	at p._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+	at Socket.m (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-02-20 09:14:10.158] [exthost] [info] extension host terminating: parent process 2955 does not exist anymore: kill ESRCH (code: ESRCH) (errno: ESRCH)
+[2021-02-20 09:14:11.165] [exthost] [info] exiting with code 0

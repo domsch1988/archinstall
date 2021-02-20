@@ -1,0 +1,21 @@
+html {
+	--colorBg: #1b1e2b !important;
+	--colorBgDark: #1b1e2b !important;
+	--colorBgIntense: #1b1e2b !important;
+	--colorBgLightIntense: #1b1e2b !important;
+	--colorBgIntenser: #1b1e2b !important;
+	--colorFg: #cccccc !important;
+	--colorFgIntense: #cccccc !important;
+	--colorFgAlpha: #cccccc21a !important;
+	--colorHighlightBg: #82aaff !important;
+	--colorHighlightFg: #1b1e2b !important;
+	--colorAccentBg: #82aaff !important;
+	--colorAccentFg: #1b1e2b !important;
+	--colorAccentBgDark: #c792ea !important;
+	--colorAccentBgFadedMost: #c792ea !important;
+	--colorBorder: #82aaff !important;
+}
+
+#browser.linux {
+	font-family: mononoki Nerd Font, system-ui, sans-serif;
+}

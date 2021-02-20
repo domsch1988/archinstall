@@ -1,0 +1,5 @@
+2021/02/20-14:33:08.643 b91 Reusing MANIFEST /home/dominik/.config/vivaldi/Default/IndexedDB/https_forum.garudalinux.org_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/20-14:35:11.412 ba1 Level-0 table #5: started
+2021/02/20-14:35:11.417 ba1 Level-0 table #5: 69574 bytes OK
+2021/02/20-14:35:11.419 ba1 Delete type=0 #3
+2021/02/20-14:35:11.420 ba1 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

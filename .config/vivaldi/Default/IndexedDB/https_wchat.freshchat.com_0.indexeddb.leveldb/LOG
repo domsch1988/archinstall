@@ -1,0 +1,5 @@
+2021/02/20-15:23:04.314 1600 Reusing MANIFEST /home/dominik/.config/vivaldi/Default/IndexedDB/https_wchat.freshchat.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/20-15:30:58.478 2bbf Level-0 table #5: started
+2021/02/20-15:30:58.489 2bbf Level-0 table #5: 432358 bytes OK
+2021/02/20-15:30:58.492 2bbf Delete type=0 #3
+2021/02/20-15:30:58.492 2bc1 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

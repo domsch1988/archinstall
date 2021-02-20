@@ -1,0 +1,14 @@
+Dark,^checkout(Dark)
+Light,^checkout(Light)
+
+^tag(Dark)
+Palenight,~/.colorschemes/switch.sh palenight
+Gruvbox,~/.colorschemes/switch.sh gruvbox-dark
+Dracula,~/.colorschemes/switch.sh dracula
+Material,~/.colorschemes/switch.sh material-dark
+Material Ocean,~/.colorschemes/switch.sh material-ocean
+
+^tag(Light)
+Ayu Light,~/.colorschemes/switch.sh ayu-light
+Gruvbox,~/.colorschemes/switch.sh gruvbox-light
+Material,~/.colorschemes/switch.sh material-light

@@ -1,0 +1,9 @@
+2021/02/20-20:08:58.655 37a Reusing MANIFEST /home/dominik/.config/vivaldi/Default/Sync Data/LevelDB/MANIFEST-000001
+2021/02/20-20:08:58.656 37a Recovering log #179
+2021/02/20-20:08:58.657 37a Reusing old log /home/dominik/.config/vivaldi/Default/Sync Data/LevelDB/000179.log 
+2021/02/20-20:09:00.037 37c Level-0 table #183: started
+2021/02/20-20:09:00.046 37c Level-0 table #183: 573783 bytes OK
+2021/02/20-20:09:00.058 37c Delete type=0 #179
+2021/02/20-20:10:20.361 982 Level-0 table #185: started
+2021/02/20-20:10:20.366 982 Level-0 table #185: 443008 bytes OK
+2021/02/20-20:10:20.368 982 Delete type=0 #182

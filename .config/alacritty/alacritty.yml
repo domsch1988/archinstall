@@ -1,0 +1,44 @@
+# Colors
+colors:
+  # Default colors
+  primary:
+    background: '0x1b1e2b'
+    foreground: '0xcccccc'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x000000'
+    cursor: '0xffffff'
+
+  # Normal colors
+  normal:
+    black:   '0x1b1e2b'
+    red:     '0xff5370'
+    green:   '0xc3e88d'
+    yellow:  '0xffcb6b'
+    blue:    '0x82aaff'
+    magenta: '0xc792ea'
+    cyan:    '0x89ddff'
+    white:   '0xcccccc'
+
+  # Bright colors
+  bright:
+    black:   '0x676e95'
+    red:     '0xf07178'
+    green:   '0xc3e88d'
+    yellow:  '0xffcb6b'
+    blue:    '0x82aaff'
+    magenta: '0xc792ea'
+    cyan:    '0x89ddff'
+    white:   '0xeeffff'
+
+font:
+  normal:
+    family: mononoki Nerd Font
+
+window:
+  padding:
+    x: 10
+    y: 10
+
+background_opacity: 0.8

@@ -1,0 +1,156 @@
+[2021-02-20 08:38:11.284] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/dominik/Programming/yt-rust/.vscode'
+[2021-02-20 08:38:38.936] [renderer1] [error] Command failed: rustup toolchain list
+/bin/sh: Zeile 1: rustup: Kommando nicht gefunden.
+: Error: Command failed: rustup toolchain list
+/bin/sh: Zeile 1: rustup: Kommando nicht gefunden.
+
+	at ChildProcess.exithandler (child_process.js:312:12)
+	at ChildProcess.emit (events.js:315:20)
+	at maybeClose (internal/child_process.js:1021:16)
+	at Socket.<anonymous> (internal/child_process.js:443:11)
+	at Socket.emit (events.js:315:20)
+	at Pipe.<anonymous> (net.js:674:12)
+[2021-02-20 08:53:33.019] [renderer1] [error] Language client is not ready yet: Error: Language client is not ready yet
+	at LanguageClient.sendRequest (/home/dominik/.vscode-oss/extensions/rust-lang.rust-0.7.8/node_modules/vscode-languageclient/lib/client.js:1789:19)
+	at /home/dominik/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:35:16
+	at new Promise (<anonymous>)
+	at SignatureHelpProvider.provideHover (/home/dominik/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:34:16)
+	at SignatureHelpProvider.provideSignatureHelp (/home/dominik/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:25)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:153977
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:8183
+	at new Promise (<anonymous>)
+	at Object.S [as asPromise] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:8155)
+	at J.provideSignatureHelp (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:153948)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:169857
+	at we._withAdapter (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+	at we.$provideSignatureHelp (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:169833)
+	at p._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+	at p._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+	at p._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+	at p._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+	at Socket.m (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-02-20 08:53:34.888] [renderer1] [error] Language client is not ready yet: Error: Language client is not ready yet
+	at LanguageClient.sendRequest (/home/dominik/.vscode-oss/extensions/rust-lang.rust-0.7.8/node_modules/vscode-languageclient/lib/client.js:1789:19)
+	at /home/dominik/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:35:16
+	at new Promise (<anonymous>)
+	at SignatureHelpProvider.provideHover (/home/dominik/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:34:16)
+	at SignatureHelpProvider.provideSignatureHelp (/home/dominik/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:25)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:153977
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:8183
+	at new Promise (<anonymous>)
+	at Object.S [as asPromise] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:8155)
+	at J.provideSignatureHelp (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:153948)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:169857
+	at we._withAdapter (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+	at we.$provideSignatureHelp (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:169833)
+	at p._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+	at p._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+	at p._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+	at p._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+	at Socket.m (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-02-20 08:57:59.991] [renderer1] [error] Language client is not ready yet: Error: Language client is not ready yet
+	at LanguageClient.sendRequest (/home/dominik/.vscode-oss/extensions/rust-lang.rust-0.7.8/node_modules/vscode-languageclient/lib/client.js:1789:19)
+	at /home/dominik/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:35:16
+	at new Promise (<anonymous>)
+	at SignatureHelpProvider.provideHover (/home/dominik/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:34:16)
+	at SignatureHelpProvider.provideSignatureHelp (/home/dominik/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:25)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:153977
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:8183
+	at new Promise (<anonymous>)
+	at Object.S [as asPromise] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:8155)
+	at J.provideSignatureHelp (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:153948)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:169857
+	at we._withAdapter (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+	at we.$provideSignatureHelp (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:169833)
+	at p._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+	at p._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+	at p._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+	at p._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+	at Socket.m (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-02-20 08:59:00.918] [renderer1] [error] Language client is not ready yet: Error: Language client is not ready yet
+	at LanguageClient.sendRequest (/home/dominik/.vscode-oss/extensions/rust-lang.rust-0.7.8/node_modules/vscode-languageclient/lib/client.js:1789:19)
+	at /home/dominik/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:35:16
+	at new Promise (<anonymous>)
+	at SignatureHelpProvider.provideHover (/home/dominik/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:34:16)
+	at SignatureHelpProvider.provideSignatureHelp (/home/dominik/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:25)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:153977
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:8183
+	at new Promise (<anonymous>)
+	at Object.S [as asPromise] (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:8155)
+	at J.provideSignatureHelp (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:153948)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:169857
+	at we._withAdapter (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159898)
+	at we.$provideSignatureHelp (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:169833)
+	at p._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10276)
+	at p._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9968)
+	at p._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8587)
+	at p._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:7440)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:5568
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29104
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at d.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:15515)
+	at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:20765)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:17659
+	at v.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12880)
+	at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:63:12228
+	at Socket.m (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:12375)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-02-20 09:00:40.408] [renderer1] [error] spawn xterm ENOENT: Error: spawn xterm ENOENT
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:267:19)
+    at onErrorNT (internal/child_process.js:469:16)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)

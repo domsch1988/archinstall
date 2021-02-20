@@ -1,0 +1,2 @@
+[2021-02-20 08:38:13.988] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/dominik/.config/Code - OSS/User/snippets'
+[2021-02-20 08:38:53.985] [sharedprocess] [info] Starting to clean up unused language packs.

@@ -1,0 +1,21 @@
+html {
+	--colorBg: %clbg% !important;
+	--colorBgDark: %clbg% !important;
+	--colorBgIntense: %clbg% !important;
+	--colorBgLightIntense: %clbg% !important;
+	--colorBgIntenser: %clbg% !important;
+	--colorFg: %clfg% !important;
+	--colorFgIntense: %clfg% !important;
+	--colorFgAlpha: %clfg%21a !important;
+	--colorHighlightBg: %cl4% !important;
+	--colorHighlightFg: %clbg% !important;
+	--colorAccentBg: %cl4% !important;
+	--colorAccentFg: %clbg% !important;
+	--colorAccentBgDark: %cl5% !important;
+	--colorAccentBgFadedMost: %cl13% !important;
+	--colorBorder: %cl4% !important;
+}
+
+#browser.linux {
+	font-family: mononoki Nerd Font, system-ui, sans-serif;
+}
